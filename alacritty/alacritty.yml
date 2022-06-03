@@ -1,0 +1,85 @@
+# Colors (Pencil Light)
+colors:
+    # Default Colors
+    primary:
+        background: '#FFFFF0'
+        foreground: '0x424242'
+    # Normal colors
+    normal:
+        black: '0x212121'
+        red: '0xc30771'
+        green: '0x10a778'
+        yellow: '0xF9AF4F'
+        blue: '0x53BDFA'
+        magenta: '0x523c79'
+        cyan: '0x20a5ba'
+        white: '0xe0e0e0'
+    # Bright colors
+    bright:
+        black: '0x212121'
+        red: '0xfb007a'
+        green: '0x00C4BC'
+        yellow: '0xFFB454'
+        blue: '0x59C2FF'
+        magenta: '0x6855de'
+        cyan: '0x4fb8cc'
+        white: '0xf1f1f1'
+
+# 设置字体
+font:
+    normal:
+        family: 'Noto Mono'
+        style: Regular
+    bold:
+        family: 'Noto Mono'
+        style: Bold
+    italic:
+        family: 'Noto Mono'
+        style: Italic
+    bold_italic:
+        family: 'Noto Mono'
+        style: Bold Italic
+
+    # 字大小
+    size: 12
+
+    offset:
+        x: 0
+        y: 0
+    glyph_offset:
+        x: 0
+        y: 0
+
+window:
+    dimensions:
+        columns: 107
+        lines: 29
+    position:
+        x: 330
+        y: 204
+    padding:
+        x: 2
+        y: 2
+
+scrolling:
+    # 回滚缓冲区中的最大行数,指定“0”将禁用滚动。
+    history: 10000
+
+    # 滚动行数
+
+    multiplier: 1
+
+# 如果为‘true’，则使用亮色变体绘制粗体文本。
+draw_bold_text_with_bright_colors: true
+
+selection:
+    semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+    save_to_clipboard: true
+
+live_config_reload: true
+
+key_bindings:
+    - { key: V, mods: command, action: Paste }
+    - { key: C, mods: command, action: Copy }
+
+tabspaces: 4

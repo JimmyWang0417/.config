@@ -1,0 +1,12 @@
+# ignore everything
+/*
+/*/
+
+# ... but these:
+!/alacritty/
+!/bottom/
+!/nvim
+!/ranger/
+!/Typora/themes
+!.gitignore
+!README.md

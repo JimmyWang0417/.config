@@ -5,9 +5,11 @@
 # ... but these:
 !/alacritty/
 !/bottom/
+!/efm-langserver/
 !/nvim/
 !/neofetch/
 !/ranger/
 !/Typora/themes/
+!.zshrc
 !.gitignore
 !README.md

@@ -5,8 +5,9 @@
 # ... but these:
 !/alacritty/
 !/bottom/
-!/nvim
+!/nvim/
+!/neofetch/
 !/ranger/
-!/Typora/themes
+!/Typora/themes/
 !.gitignore
 !README.md
